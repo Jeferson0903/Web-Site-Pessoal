@@ -457,9 +457,6 @@ span {
         min-height: auto;
     }
 
-    .footer {
-        padding: 2rem 3%;
-    }
 }
 
 @media (max-width: 768px) {
@@ -502,12 +499,28 @@ span {
     }
 
     .home-img img {
-        width: 70vw;
+        width: 40vw;
         margin-top: 4rem;
     }
 
+    .bio {
+        flex-direction: column;
+    }
+
+    .bio-content h3{
+        font-size: 2.6rem;
+    }
+
+    .bio-content p {
+        flex-direction: column;
+    }
+
+    .bio-content h1 {
+        font-size: 5rem;
+    }
+
     .bio img {
-        width: 70vw;
+        width: 40vw;
         margin-top: 4rem;
     }
 
@@ -522,6 +535,7 @@ span {
     .portifolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 @media (max-width: 617px) {
@@ -538,6 +552,10 @@ span {
 
     .contato form .input-box input {
         width: 100%;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
     }
 }
 
