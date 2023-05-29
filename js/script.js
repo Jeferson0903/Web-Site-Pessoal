@@ -49,6 +49,7 @@ ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portifolio-box, .contato form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .bio-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .bio-img', { origin: 'right' });
+ScrollReveal().reveal('.formacao-content p, .formacao-img', { origin: 'left' });
 
 /*typed js*/
 

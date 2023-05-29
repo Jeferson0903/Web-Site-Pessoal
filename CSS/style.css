@@ -79,6 +79,7 @@ section {
     display: flex;
     justify-content: center ;
     align-items: center;
+    background: var(--second-bg-color);
 }
 
 .home-img img {
@@ -460,15 +461,17 @@ span {
 }
 
 @media (max-width: 768px) {
+
     #menu-icon {
         display: block;
+        width: 2rem;
     }
 
     .navbar {
         position: absolute;
         top: 100%;
         left: 0;
-        width: 100%;
+        width: 0%;
         padding: 1rem 3%;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
@@ -539,6 +542,10 @@ span {
 }
 
 @media (max-width: 617px) {
+    .header {
+        width: 41.5rem;
+    }
+
     .portifolio-container {
        grid-template-columns: 1fr; 
     }
