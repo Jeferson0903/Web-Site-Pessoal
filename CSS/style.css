@@ -527,6 +527,28 @@ span {
         margin-top: 4rem;
     }
 
+    .formacao {
+        flex-direction: column;
+    }
+
+    .formacao-content h3{
+        font-size: 2.6rem;
+    }
+
+    .formacao-content p {
+        flex-direction: column;
+    }
+
+    .formacao-content h1 {
+        font-size: 5rem;
+    }
+
+    .formacao img {
+        width: 40vw;
+        margin-top: 4rem;
+    }
+
+
     .services h2 {
         margin-bottom: 3rem;
     }
@@ -542,10 +564,6 @@ span {
 }
 
 @media (max-width: 617px) {
-    .header {
-        width: 41.5rem;
-    }
-
     .portifolio-container {
        grid-template-columns: 1fr; 
     }
@@ -563,6 +581,45 @@ span {
 
     .footer {
         flex-direction: column-reverse;
+    }
+
+    .home-content h1 {
+        width: 300px;
+    }
+
+    .home-content p {
+        width: 300px;
+    }
+
+    .home-img img {
+        width: 40vw;
+        border-radius: 25px;
+    }
+
+    .bio-content h1 {
+        width: 300px;
+    }
+
+    .bio-content p {
+        width: 300px;
+    }
+
+    .bio-img img {
+        width: 40vw;
+        border-radius: 25px;
+    }
+
+    .formacao-content h1 {
+        width: 300px;
+    }
+
+    .formacao-content p {
+        width: 300px;
+    }
+
+    .formacao-img img {
+        width: 40vw;
+        border-radius: 25px;
     }
 }
 
