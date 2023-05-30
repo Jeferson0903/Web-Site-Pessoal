@@ -45,11 +45,10 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-content, .bio-content, .formacao-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portifolio-box, .contato form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .bio-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .bio-img', { origin: 'right' });
-ScrollReveal().reveal('.formacao-content p, .formacao-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content h1, .bio-img, .formacao-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .bio-content p, .formacao-content p', { origin: 'right' });
 
 /*typed js*/
 

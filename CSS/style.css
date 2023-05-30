@@ -207,11 +207,6 @@ span {
     border-radius: 60px;
 }
 
-.heading {
-    text-align: center;
-    font-size: 4.5rem;
-}
-
 .formacao-content h2 {
     text-align: left;
     line-height: 1.2;
@@ -304,7 +299,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    background: linear-gradient(rgba(12, 2, 34, 0.5), var(--main-color));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,6 +321,7 @@ span {
 .portifolio-layer p {
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
+    font-weight: 600;
 }
 
 .portifolio-layer a {
@@ -389,13 +385,13 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 9rem;
+    margin-left: 8rem;
     margin-top: 2rem;
     border-radius: .8rem;
     color:#75787d;
     background: var(--second-bg-color);
     font-size: 1.8rem;
-    width: 21rem;
+    width: 25rem;
 }
 
 .footer {
