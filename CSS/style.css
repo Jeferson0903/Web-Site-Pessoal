@@ -457,6 +457,9 @@ span {
 }
 
 @media (max-width: 768px) {
+    .header {
+        width: 770px;
+    }
 
     #menu-icon {
         display: block;
@@ -566,6 +569,10 @@ span {
     .portifolio-container {
        grid-template-columns: 1fr; 
     }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width: 450px){
@@ -574,7 +581,7 @@ span {
     }
 
     .header {
-        width: 378px;
+        width: 375px;
     }
 
     .contato form .input-box input {
@@ -622,6 +629,10 @@ span {
     .formacao-img img {
         width: 40vw;
         border-radius: 25px;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
     }
 }
 
