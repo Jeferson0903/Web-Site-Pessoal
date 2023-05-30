@@ -477,12 +477,15 @@ span {
 
     .navbar.active {
         display: block;
+        width: 50%;
+        border-radius: 7px;
     }
 
     .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+        margin-left: 2rem;
     }
 
     .home {
@@ -563,13 +566,16 @@ span {
     .portifolio-container {
        grid-template-columns: 1fr; 
     }
-
 }
 
 @media (max-width: 450px){
     html {
         font-size: 50%;
-    }  
+    }
+
+    .header {
+        width: 378px;
+    }
 
     .contato form .input-box input {
         width: 100%;
@@ -619,7 +625,7 @@ span {
     }
 }
 
-@media (max-width: 365px){
+@media (max-width: 365px){  
     .home-img img {
         width: 90vw;
     }
