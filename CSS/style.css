@@ -26,6 +26,8 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    max-width: 100vw;
+    overflow: hidden;
 }
 
 section {
@@ -38,7 +40,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 2rem 12%;
     background: var(--bg-color);
     display: flex;
     justify-content: space-between;
@@ -137,7 +139,7 @@ span {
 }
 
 .home-content p {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
 
 }
 
@@ -190,7 +192,7 @@ span {
 }
 
 .bio-content p {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     margin: 2rem 0 3rem;
 }
 
@@ -217,7 +219,7 @@ span {
 }
 
 .formacao-content p {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     margin: 2rem 0 3rem;
 }
 
@@ -319,7 +321,7 @@ span {
 }
 
 .portifolio-layer p {
-    font-size: 1.6rem;
+    font-size: 2.1rem;
     margin: .3rem 0 1rem;
     font-weight: 600;
 }
@@ -434,9 +436,6 @@ span {
 }
 
 @media (max-width: 991px) {
-    .header {
-        padding: 2rem 3%;
-    }
 
     section {
         padding: 10rem 3% 2rem;
@@ -457,10 +456,6 @@ span {
 }
 
 @media (max-width: 768px) {
-    .header {
-        width: 770px;
-    }
-
     #menu-icon {
         display: block;
         width: 2rem;
@@ -575,13 +570,9 @@ span {
     }
 }
 
-@media (max-width: 450px){
+@media (max-width: 480px){
     html {
         font-size: 50%;
-    }
-
-    .header {
-        width: 375px;
     }
 
     .contato form .input-box input {
@@ -618,7 +609,7 @@ span {
         border-radius: 25px;
     }
 
-    .formacao-content h1 {
+    .formacao-content h2 {
         width: 300px;
     }
 
@@ -627,8 +618,11 @@ span {
     }
 
     .formacao-img img {
-        width: 40vw;
+        width: 50vw;
         border-radius: 25px;
+    }
+    .select {
+        width: 280px ;
     }
 
     .footer {
@@ -636,7 +630,7 @@ span {
     }
 }
 
-@media (max-width: 365px){  
+@media (max-width: 375px){  
     .home-img img {
         width: 90vw;
     }
