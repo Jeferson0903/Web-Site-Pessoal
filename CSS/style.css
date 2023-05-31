@@ -393,7 +393,7 @@ span {
     color:#75787d;
     background: var(--second-bg-color);
     font-size: 1.8rem;
-    width: 25rem;
+    width: 25.5rem;
 }
 
 .footer {
@@ -492,6 +492,7 @@ span {
 
     .home-content h3 {
         font-size: 2.6rem;
+        margin-top: -4px;
     }
 
     .home-content h1 {
@@ -590,10 +591,17 @@ span {
     .home-content p {
         width: 300px;
     }
+    .social-media {
+        margin-top: -16px;
+    }
 
     .home-img img {
         width: 40vw;
         border-radius: 25px;
+    }
+
+    .btn {
+        margin-top: -10px;
     }
 
     .bio-content h1 {
