@@ -630,7 +630,7 @@ span {
         border-radius: 25px;
     }
     .select {
-        width: 280px ;
+        width: 295px ;
     }
 
     .footer {
@@ -638,7 +638,7 @@ span {
     }
 }
 
-@media (max-width: 375px){  
+@media (max-width: 375px){     
     .home-img img {
         width: 90vw;
     }
