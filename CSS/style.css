@@ -629,8 +629,16 @@ span {
         border-radius: 25px;
     }
 
+    .select {
+        width: 297px;
+    }
+
     .footer {
         flex-direction: column-reverse;
+    }
+
+    .footer p {
+        font-size: 10px;
     }
 }
 
@@ -645,7 +653,7 @@ span {
     }
 
     .select {
-        width: 297px;
+        width: 285px;
     }
 
     .heading {
@@ -711,7 +719,7 @@ span {
     }
 
     .select {
-        width: 283px;
+        width: 280px;
     }
 
     .footer {
