@@ -178,6 +178,7 @@ span {
 }
 
 .heading {
+    margin-top: 10rem;
     text-align: center;
     font-size: 4.5rem;
 }
@@ -265,10 +266,11 @@ span {
 
 .portifolio {
     background: var(--second-bg-color);
+
 }
 
 .portifolio h2 {
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
 }
 
 .portifolio-container {
@@ -639,6 +641,11 @@ span {
     .select {
         width: 297px;
     }
+
+    .heading {
+        margin-top: -10px;
+    }
+
 }
 
 @media (max-width: 375px){ 
@@ -682,7 +689,9 @@ span {
         border-radius: 30px;
     }
 
-      
+    .heading {
+        margin-top: -10px;
+    }
 
     .select {
         width: 283px;
