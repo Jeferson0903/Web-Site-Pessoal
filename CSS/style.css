@@ -591,8 +591,18 @@ span {
         width: 300px;
     }
 
+    .home-content h3 {
+        font-size: 25px;
+    }
+
     .home-content p {
         width: 300px;
+        font-size: 16px;
+    }
+
+    .home-img img {
+        width: 40vw;
+        border-radius: 25px;
     }
     
     .social-media {
