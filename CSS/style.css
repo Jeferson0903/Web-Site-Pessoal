@@ -511,7 +511,7 @@ span {
     }
 
     .bio {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .bio-content h3{
