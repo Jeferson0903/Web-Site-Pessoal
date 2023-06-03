@@ -636,6 +636,10 @@ span {
         border-radius: 25px;
     }
 
+    .heading {
+        margin-top: -5px;
+    }
+
     .select {
         width: 297px;
     }
