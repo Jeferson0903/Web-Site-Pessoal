@@ -212,12 +212,9 @@ span {
 }
 
 .formacao-content h2 {
+    margin-top: -2rem;
     text-align: left;
     line-height: 1.2;
-}
-
-.formacao-content h3 {
-    font-size: 2.6rem;
 }
 
 .formacao-content p {
