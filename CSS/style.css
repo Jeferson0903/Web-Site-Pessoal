@@ -27,7 +27,7 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
     max-width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 section {
@@ -140,7 +140,6 @@ span {
 
 .home-content p {
     font-size: 2.2rem;
-
 }
 
 .social-media a {
@@ -172,20 +171,28 @@ span {
     background: var(--second-bg-color);
 }
 
-.bio-img img {
-    margin-top: 2rem;
+.bio-img {
     width: 15vw;
+    aspect-ratio: 3 / 4;
     border-radius: 60px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.bio-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 35%;
 }
 
 .heading {
-    margin-top: 10rem;
     text-align: center;
     font-size: 4.5rem;
+    margin-bottom: 3rem; 
 }
 
 .bio-content h2 {
-    margin-top: 2rem;
     text-align: left;
     line-height: 1.2;
 }
@@ -213,7 +220,6 @@ span {
 }
 
 .formacao-content h2 {
-    margin-top: -2rem;
     text-align: left;
     line-height: 1.2;
 }
@@ -221,6 +227,13 @@ span {
 .formacao-content p {
     font-size: 2.2rem;
     margin: 2rem 0 3rem;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .services h2 {
@@ -265,7 +278,10 @@ span {
 
 .portifolio {
     background: var(--second-bg-color);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .portifolio h2 {
@@ -285,10 +301,13 @@ span {
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+    aspect-ratio: 4 / 3;
 }
 
 .portifolio-box img {
     width: 100%;
+    height: 100%; 
+    object-fit: cover;
     transition: .5s ease;
 }
 
@@ -302,7 +321,8 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(12, 2, 34, 0.5), var(--main-color));
+    background: rgba(16, 28, 51, 0.85); 
+    backdrop-filter: blur(4px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,45 +362,58 @@ span {
     color: var(--second-bg-color);
 }
 
-.contato h2 {
-    margin-bottom: 3rem;
-}
-
-.contato form {
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.contato form .input-box {
+section.contato {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: auto;
+    padding: 15rem 9% 20rem;
 }
 
-.contato form .input-box input,
-.contato form textarea {
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
+.contato-subtitulo {
+    font-size: 1.8rem;
+    max-width: 60rem;
+    color: #ccc;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.contato-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap; 
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.info-item i {
+    font-size: 4rem;
+    color: var(--main-color);
+    margin-right: 1.5rem;
+}
+
+.item-texto h4 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
 }
 
-.contato form .input-box input {
-    width: 49%;
+.item-texto a {
+    font-size: 1.6rem;
+    color: #ccc;
+    transition: .3s ease;
 }
 
-.contato form textarea {
-    resize: none;
-}
-
-.contato form .btn {
-    margin-top: 2rem;
-    cursor: pointer;
+.item-texto a:hover {
+    color: var(--main-color);
 }
 
 .select {
@@ -527,9 +560,11 @@ span {
         font-size: 5rem;
     }
 
-    .bio img {
-        width: 40vw;
-        margin-top: 4rem;
+    .bio-img {
+    width: 45vw; 
+    height: 60vw; 
+    margin-bottom: 3rem; 
+    border-radius: 35px;
     }
 
     .formacao {
@@ -626,7 +661,7 @@ span {
     }
 
     .bio-img img {
-        width: 40vw;
+        width: 45vw;
         border-radius: 25px;
     }
 
@@ -704,7 +739,7 @@ span {
 
     .bio-img img {
         margin-top: -10px;
-        width: 30vw;
+        width: 35vw;
         border-radius: 20px;
     }
 

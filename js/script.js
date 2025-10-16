@@ -53,7 +53,7 @@ ScrollReveal().reveal('.home-content p, .bio-content p, .formacao-content p', { 
 /*typed js*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Engenheiro de Software(Cursando),', 'Técnico em Eletrotécnica,', 'Técnico em Mecatrônica.'],
+    strings: ['Desenvolvedor Front-End', 'Desenvolvedor Back-End', 'Engenheiro de Software'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
