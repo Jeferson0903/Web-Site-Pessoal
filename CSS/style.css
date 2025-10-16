@@ -363,6 +363,7 @@ span {
 }
 
 section.contato {
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -502,6 +503,10 @@ section.contato {
         width: 2rem;
     }
 
+    section.contato {
+        padding: 10rem 9% 8rem;
+    }
+
     .navbar {
         position: absolute;
         top: 100%;
@@ -617,6 +622,12 @@ section.contato {
     html {
         font-size: 50%;
     }
+
+    .contato-lista {
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 3rem; 
+}
 
     .contato form .input-box input {
         width: 100%;
